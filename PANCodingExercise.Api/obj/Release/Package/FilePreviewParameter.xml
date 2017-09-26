@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="PANCodingExercise" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\disran\\Documents\\Visual\ Studio\ 2015\\Projects\\PANCodingExercise\\PANCodingExercise\.Api\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\disran\\Documents\\Visual\ Studio\ 2015\\Projects\\PANCodingExercise\\PANCodingExercise\.Api\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="ItemDbContext-Web.config Connection String" description="" value="Server=tcp:disran01.database.windows.net,1433;Initial Catalog=PANCodingExercise;Persist Security Info=False;User ID=disran01;Password=if0121PM;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\disran\\Documents\\Visual\ Studio\ 2015\\Projects\\PANCodingExercise\\PANCodingExercise\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='ItemDbContext']/@connectionString" />
+  </parameter>
+</parameters>

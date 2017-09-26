@@ -1,0 +1,22 @@
+<h5 ng-if="itemDetail.model.Id > 0">Edit: {{itemDetail.model.Id}}</h5>
+<form name="myForm">
+  <div class="form-group">
+    <label>Name</label>
+    <input type="text" name="name" class="form-control" ng-model="itemDetail.model.Name" required>
+  </div>
+ 
+  <div class="form-group">
+    <label>Display Name</label>
+    <input type="text" name="displayName" class="form-control" ng-model="itemDetail.model.DisplayName" required>
+  </div>
+ 
+  <div class="form-group">
+    <label>Description</label>
+    <textarea name="description" class="form-control" ng-model="itemDetail.model.Description"></textarea>
+  </div>
+
+  <br>
+  <a href="/" class="btn">Cancel</a>
+  <button ng-click="itemDetail.save()"
+          class="btn btn-primary">Save</button>
+</form>

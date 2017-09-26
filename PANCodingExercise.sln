@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PANCodingExercise.Api", "PANCodingExercise.Api\PANCodingExercise.Api.csproj", "{8DB810BA-B238-46A4-B5CB-598C78B6E415}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PANCodingExercise.Data", "PANCodingExercise.Data\PANCodingExercise.Data.csproj", "{02260B98-F737-4802-8FAD-CB24CECF60A7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PANCodingExercise.Services", "PANCodingExercise.Services\PANCodingExercise.Services.csproj", "{AEF74AC9-34E3-4FB1-8EBB-F537EAED9288}"
+EndProject
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PANCodingExercise.FrontEnd", "PANCodingExercise.FrontEnd\", "{0B9FCA23-7076-4FB9-96A8-A28FC86462E9}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_18698"
+		Debug.AspNetCompiler.PhysicalPath = "PANCodingExercise.FrontEnd\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18698\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_18698"
+		Release.AspNetCompiler.PhysicalPath = "PANCodingExercise.FrontEnd\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_18698\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "18698"
+		SlnRelativePath = "PANCodingExercise.FrontEnd\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DB810BA-B238-46A4-B5CB-598C78B6E415}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DB810BA-B238-46A4-B5CB-598C78B6E415}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DB810BA-B238-46A4-B5CB-598C78B6E415}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DB810BA-B238-46A4-B5CB-598C78B6E415}.Release|Any CPU.Build.0 = Release|Any CPU
+		{02260B98-F737-4802-8FAD-CB24CECF60A7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{02260B98-F737-4802-8FAD-CB24CECF60A7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{02260B98-F737-4802-8FAD-CB24CECF60A7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{02260B98-F737-4802-8FAD-CB24CECF60A7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AEF74AC9-34E3-4FB1-8EBB-F537EAED9288}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AEF74AC9-34E3-4FB1-8EBB-F537EAED9288}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AEF74AC9-34E3-4FB1-8EBB-F537EAED9288}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AEF74AC9-34E3-4FB1-8EBB-F537EAED9288}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0B9FCA23-7076-4FB9-96A8-A28FC86462E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9FCA23-7076-4FB9-96A8-A28FC86462E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B9FCA23-7076-4FB9-96A8-A28FC86462E9}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B9FCA23-7076-4FB9-96A8-A28FC86462E9}.Release|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
